@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Create movie objects
 
 grand_budapest = media.Movie(
     "The Grand Budapest Hotel",
@@ -24,5 +25,7 @@ shining = media.Movie(
     "https://www.youtube.com/watch?v=5Cb3ik6zP2I",
     "0081505")
 
+# Create array of movie objects
 movies = [grand_budapest, life_acquatic, shining]
+# Create movies page
 fresh_tomatoes.open_movies_page(movies)
